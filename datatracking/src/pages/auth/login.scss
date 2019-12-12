@@ -1,0 +1,57 @@
+.login-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&.skin-1 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login1.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-2 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login2.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-3 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-4 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login4.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-5 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login5.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-6 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login6.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-7 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login7.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	&.skin-8 {
+		background: #eef1f6 url('http://ims2af.cnnd.vn/statics/images/background/login8.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.page-container {
+		padding: 0 !important;
+		.content {
+			padding: 0;
+			.login-form {
+				-webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.05);
+				box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.05);
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.hidden-ul {
+	&.active {
+		display: block !important;
+	}
+}

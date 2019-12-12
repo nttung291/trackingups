@@ -1,0 +1,14 @@
+version: "3"
+services:
+  datatracking:
+    build: /home/thang_mobilefolk/datatracking
+    container_name: datatracking
+    restart: always
+    ports:
+      - 5000:5000
+    volumes:
+      - /home/thang_mobilefolk/datatracking/:/home/thang_mobilefolk/datatracking/
+      - /path_to_storage:/path_to_storage
+      - /home/thang_mobilefolk/datatracking/node_modules
+
+

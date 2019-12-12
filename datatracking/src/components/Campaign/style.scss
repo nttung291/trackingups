@@ -1,0 +1,32 @@
+.btn-article-search {
+	margin-top: 26px;
+}
+
+.btn-export {
+	margin-top: 26px;
+
+	&.csv {
+		margin-right: 10px;
+	}
+}
+
+
+.article-campaign-wrapper {
+	.article-list {
+		display: block;
+
+		li {
+			margin-bottom: 10px;
+			text-transform: none;
+
+			.tags-list {
+				display: inline-block;
+
+				li {
+
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+}
