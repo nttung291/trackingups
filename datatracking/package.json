@@ -24,7 +24,7 @@
     "http-proxy-middleware": "^0.18.0",
     "lodash-uuid": "0.0.3",
     "lodash.flowright": "3.5.0",
-    "next": "^8.1.0",
+    "next": "^9.3.3",
     "next-redux-saga": "3.0.0-beta.2",
     "next-redux-wrapper": "^2.0.0",
     "next-routes": "^1.4.2",
